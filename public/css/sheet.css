@@ -1,0 +1,357 @@
+body{
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+.fixed{
+	height: 80px;
+}
+.bar{
+	height: 80px;
+	//background-color: #333333;
+	background: linear-gradient(to bottom, black 0%, #3e3e3e 100%);
+	position: fixed;
+    width: 100%;
+    z-index: 9999;
+	box-shadow: 0px 0px 15px #000;
+}
+.logo{
+	width: 230px;
+	height: 30px;
+}
+.navbar{
+	margin-top: 15px;
+	background-color: transparent;
+	border-color: transparent;
+	z-index: 9999;
+}
+.navbar-header{
+	padding-bottom: 13px;
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 600;
+	transition:0.5s;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	color: #FE5A31;
+	
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FE5A31;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-brand{
+	padding: 10px 15px;
+}
+/*footer*/
+.footer{
+	
+}
+
+.footer-up{
+	background-image: url('../images/bmw.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.footer-down{
+	background-color: #333333;
+}
+.droit{
+	//text-align: center;
+	padding: 0px 0px;
+}
+.droit > p{
+	padding-top: 16px;
+}
+.droit > p > span{
+	color: #FE5A31;
+}
+
+.soc{
+	background-color: #333333;
+}
+
+.soc-item{
+	height: 50px;
+	transition: 0.5s;
+	cursor: pointer;
+	text-align: center;
+}
+
+.soc-item:nth-child(1):hover{
+	background-color: #3B5998;
+}
+
+.soc-item:nth-child(2):hover{
+	background-color: #00A9E8;
+}
+
+.soc-item:nth-child(3):hover{
+	background-color: #0078B1;
+}
+
+.soc-item:nth-child(4):hover{
+	background-color: #D64937;
+}
+
+
+.soc-item > i {
+	padding-top: 12px;
+	//padding-left: 17px;
+}
+
+.h1{
+	font-size: 60px;
+	padding-bottom: 20px;
+}
+
+.contact_h1{
+	
+	
+}
+.contact_h1 > p{
+
+}
+
+
+.info > p{
+	padding-bottom: 10px;
+}
+
+.info > p > span{
+	color: #FE5A31;
+}
+
+#confirm{
+	background-color: #FE5A31;
+	border-color: #f14d08;
+	color: #fff;
+	outline: none;
+	transition: 0.5s;
+}
+
+#confirm:hover{
+	background-color: #f14d08;
+	border-color: #FE5A31;
+}
+
+.form-control{
+	border: none;
+	border-radius: 0px;
+	outline: none;
+	transition: 0.5s;
+	box-shadow: none;
+	background-color: rgba(51,51,51,0.8);
+	color: #979797;
+}
+
+.form-control:focus{
+	border: 1px solid #FE5A31;
+}
+
+.unslider-nav{
+	display: none;
+}
+.reservation{
+	margin-top: 50px;
+	border-bottom: 1px solid #eeeeee;
+}
+.reservation label{
+	color: #606060;
+}
+
+.reservation .form-control{
+	display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #606060;
+  background-color: #F9F9F9;
+  background-image: none;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.Mot{
+	color: #606060;
+	border-bottom: 1px solid #eeeeee;
+}
+.Services{
+	color: #606060;
+	border-bottom: 1px solid #eeeeee;
+}
+.service-ico{
+	text-align: center;
+}
+.service-ico > div{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid #FE5A31;
+	text-align: center;
+}
+.service-ico i{
+	margin-top: 10px;
+	color: #FE5A31;
+}
+blockquote{
+	border-left-color: #FE5A31;
+}
+.description{
+	text-align: center;
+}
+.conditions{
+	color: #606060;
+	margin-bottom: 10px;
+}
+.conditions > .row > .col-lg-12:nth-child(2){
+	border: 1px solid #cccccc;
+}
+
+.conditions .h1{
+	font-size: 36px;
+}
+.vehicules{
+	color:#606060;
+}
+.v-item	{
+	border: 1px solid #EBEBEB;
+	overflow: hidden;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+.vehicules .h2{
+	//padding-left: 15px;
+}
+.vehicules .h4{
+	//padding-left: 5px;
+}
+.v-item-img{
+	border-bottom: 1px solid #EBEBEB;
+	text-align: center;
+}
+.price{
+	text-align: center;
+	color: #606060;
+	height: 15px;
+}
+.price #confirm{
+	background-color: #E1E1E1;
+	border-color: #C9C9C9;
+	color: #606060;
+	border-radius: 0px;
+	width: 100%;
+}
+.clim{
+	margin-bottom: 5px;
+}
+.clim span{
+	margin-right: 5px;
+}
+.reserver{
+	text-align: center;
+}
+.reserver #confirm{
+	border-radius: 0px;
+	width: 100%;
+}
+#exep{
+	margin-right: 4px;
+}
+.pricee{
+	background-color: #E1E1E1;
+	border: 1px solid #C9C9C9;
+	color: #606060;
+	padding: 5px;
+	text-align: center;
+}
+.res{
+	padding: 10px;
+	border: 1px solid #EBEBEB;
+	margin-bottom: 20px;
+}
+
+.form-controle {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #F9F9F9;
+  background-image: none;
+  border: 1px solid #E7E7E7;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-controle:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.alert{
+	margin-bottom: -23px;
+}
+.cent-div > .h2{
+	padding-left: 13px;
+}
+textarea.form-controle{
+	height: auto;
+}
+
+@media (max-width:1200px) { 
+	
+	
+	
+}
+
+@media (max-width:768px) { 
+	.navbar-header{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.navbar-brand{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.v-item-img > img{
+		//width: auto;
+	}
+}
+
+@media (max-width:992px) { 
+	.droit{
+		text-align: center;
+	}
+	.navbar-collapse{
+		background-color: #333333;
+		label
+	}
+	.v-item-img > img{
+		//width: 100%;
+	}
+	#sub{
+		display: none;
+	}
+	
+	
+	
+}
